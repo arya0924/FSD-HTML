@@ -1,17 +1,40 @@
-body{
+/* body{
     background-color: bisque;
 }
 div{
     background-color: rgb(72, 180, 180);
 
-}
+} */
 .container{
     background-color: orange;
-    height: 200px;
-    border: 2px solid papayawhip;
-    margin-top: 100px;
-    border-radius: 10px ;
+    height: 400px;
+    width: 100%;
+    border: 2px solid red ;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
+   
+.child1,.child2,.child3{
+    height: 200px;
+    border: 1px solid blue;
+    width: 300px;
+     display: inline-block;
+    
+
+
+}
+}
+.child1{
+    background-color: yellowgreen;
+}
+.child2{
+    background-color: aquamarine;
+    flex-basis: 50%;
+}
+.child3{
+    background-color: blanchedalmond;
 }
 
 /* .child1{
@@ -24,6 +47,4 @@ div{
     padding: 100px 50px 40px;
     box-sizing: border-box;
 }  */
-  div>p{
-    background-color: darksalmon;
-  }
+  
